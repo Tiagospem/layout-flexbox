@@ -1,0 +1,44 @@
+html, body, #app{
+  height: 100%;
+  margin: 0;
+}
+
+#app{
+  /* quebra os elementos em linhas
+  flex-wrap: wrap;
+  define o posiconamento das linhas quebradas
+  align-content: flex-start;
+  */
+  display: flex;
+  /*flex-direction: row;
+  alinha vertical em direction row*/
+  /*align-items: center; 
+  alinha horizontal em direction row*/
+  /*justify-content: center; */
+
+}
+
+.box{
+  height: 60px;
+  width: 200px;
+  background: #000;
+  margin: 5px;
+  /* ocupa 100%
+  flex-grow: 1
+  espreme ou aumenta se necessário
+  flex: 1
+    */
+}
+
+.green{
+  background: greenyellow;
+  order: 3
+}
+.blue {
+  background: blueviolet;
+  order: 1
+}
+.red {
+  background: red;
+  order: 2
+}
